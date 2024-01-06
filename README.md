@@ -1,2 +1,2 @@
-# email-sms-scam-detector
-Detection of scam content in Emails/SMS
+# SafeGuardian AI
+Machine Learning model for detection of scam content in text messages
