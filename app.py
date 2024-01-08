@@ -4,6 +4,7 @@ import string
 from nltk.corpus import stopwords
 import nltk
 from nltk.stem.porter import PorterStemmer
+nltk.download('punkt')
 
 ps = PorterStemmer()
 
@@ -60,9 +61,9 @@ if st.button('Check'):
     else:
         st.header("This is most likely not a scam. However, be careful when responding.")
 
+
 st.markdown(""" <style>
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 </style> """, unsafe_allow_html=True)
-
 
