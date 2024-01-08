@@ -58,7 +58,7 @@ if st.button('Check'):
 
     # 4.  Display
     if result == 1:
-        st.header("This is highly likely to be a smishing scam! Be careful when responding.")
+        st.header("This is highly likely to be a smishing/phishing scam! Be careful when responding.")
     else:
         st.header("This is most likely not a scam. However, be careful when responding.")
 
