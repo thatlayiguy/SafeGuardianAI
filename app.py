@@ -62,9 +62,3 @@ if st.button('Check'):
     else:
         st.header("This is most likely not a scam. However, be careful when responding.")
 
-
-st.markdown(""" <style>
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-</style> """, unsafe_allow_html=True)
-
